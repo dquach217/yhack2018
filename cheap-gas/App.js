@@ -4,7 +4,10 @@
 //Pesudocode:
 
 //App main page:
-//  Display logo, battery level and number of miles left
+//  Display logo, battery level
+// FOR BATTERY LEVEL - hardcode this data for now
+//                   - Synthesize this data from: odo reading at last "fill" + battery capacity in miles  and the current odo reading.
+// and number of miles left
 // IF number of miles left is below threshold value then:
 // Bring up alert form -> "your car battery is low, do you want me to find a charging station?"
 
