@@ -3,7 +3,7 @@ import getDirections from 'react-native-google-maps-directions'
  
 export default class gmapsDirections extends Component {
  
-  handleGetDirections = () => {
+  handleGetDirections = (sourceLatitude, sourceLongitude, destinationLatitude, destinationLongitude) => {
     const data = {
        source: {
         latitude: Number(sourceLatitude),
